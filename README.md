@@ -3,7 +3,24 @@ Just an area where I put things I learned
 
 ### March 18, 2021
 
-Learned a lot about Django architecture with overall project and app folders. Refer to this document written by Muhammad [link](https://muhammadraza.me/2019/Creating-Simple-WebApp-Using-Django/)
+1. Learned a lot about Django architecture with overall project and app folders. Refer to this document written by Muhammad [link](https://muhammadraza.me/2019/Creating-Simple-WebApp-Using-Django/)
+
+2. Learned how to add React App and some components inside of a Django Rest Framework
+
+- cd into main folder
+- Create new app `django-admin startapp frontend`
+- cd into frontend folder
+- Inside of frontend folder, create `templates` directory and `static` directory
+- In `templates` directory create folders `css`, `js`, and `images`
+- Inside of your frontend folder create directory `src` then add directory `components` into src
+- Inside of the frontend directory, create a node project `npm init -y`
+- Install webpack `npm i webpack webpack cli --save-dev` This package will take all our javascript and bundle it in one single js file
+- Install bable `npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev` Essentially what babel does is it takes our JavaScript and code and makes sure it is compatable with other browsers. 
+- Install react `npm i react react-dom --save-dev`
+- Install materialUI `npm install @material-ui/core` built in components for us so we don't have to build everything (cards/grids) like boostrap
+- Install another plugin for babel `npm install @babel/plugin-proposal-class-properties` this is so we can use async, wait, etc commands in our JavaScript
+- Install plugin for react `npm install react-router-dom` will let us to re route our pages
+- Install plugin for materialUI `npm install @material-ui/icons` Get icons for material ui
 
 ### March 17, 2021
 

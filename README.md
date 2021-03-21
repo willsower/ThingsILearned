@@ -1,6 +1,10 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### March 20, 2021
+
+I have learned about SMTP gateway and IMAP gateway. SMTP is Simple Mail Transfer Protocol allowing you to receive messages. While IMAP is Internet Message Access Protocol allowing us to get the email. I wrote a script to get user's emails here. This github project which I'm working on with Muhammad allows us to send and recieve messages from text with an email. Click [here](https://github.com/mtdevss/terminal-text)
+
 ### March 18, 2021
 
 1. Learned a lot about Django architecture with overall project and app folders. Refer to this document written by Muhammad [link](https://muhammadraza.me/2019/Creating-Simple-WebApp-Using-Django/)

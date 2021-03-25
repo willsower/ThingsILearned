@@ -1,6 +1,12 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### March 25, 2021
+
+To create your own server in the directory you use the command `python3 -m http.server` you can then access this server on your local laptop by going to `localhost:8000`.
+
+To access this on a phone or another computer that is on the same network, you would get your IP address, and in a browser would be `<IPAddress>:8000` where the port is 8000.
+
 ### March 20, 2021
 
 1. I have learned about SMTP gateway and IMAP gateway. SMTP is Simple Mail Transfer Protocol allowing you to receive messages. While IMAP is Internet Message Access Protocol allowing us to get the email. I wrote a script to get user's emails here. This github project which I'm working on with Muhammad allows us to send and recieve messages from text with an email. Click [here](https://github.com/mtdevss/terminal-text)

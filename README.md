@@ -12,10 +12,10 @@ To access this on a phone or another computer that is on the same network, you w
 1. I have learned about SMTP gateway and IMAP gateway. SMTP is Simple Mail Transfer Protocol allowing you to receive messages. While IMAP is Internet Message Access Protocol allowing us to get the email. I wrote a script to get user's emails here. This github project which I'm working on with Muhammad allows us to send and recieve messages from text with an email. Click [here](https://github.com/mtdevss/terminal-text)
 
 2. In Discord you can do
-"```<name of the language>
+"``<name of the language>
 Put your code here 
 
-```"
+``"
 To get different colors of your code to render.
 
 ### March 18, 2021

@@ -1,6 +1,10 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### March 31, 2021
+
+To create a Next.JS project write this command in your terminal `npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"` for a basic layout. You need to have `node.js` installed
+
 ### March 25, 2021
 
 To create your own server in the directory you use the command `python3 -m http.server` you can then access this server on your local laptop by going to `localhost:8000`.

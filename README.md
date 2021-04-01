@@ -12,6 +12,9 @@ This creates a env/ folder so in `.gitignore` be sure to add `env/`
 After creating the environment, if you want to add installed libraries to the `requirements.txt` file run the following command
 - `python3 -m pip freeze > requirements.txt`
 
+To download all items in your requirements.txt file run the following command
+- `pip install -r requirements.txt`
+
 ### March 31, 2021
 
 To create a Next.JS project write this command in your terminal `npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"` for a basic layout. You need to have `node.js` installed

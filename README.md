@@ -1,6 +1,17 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### April 1, 2021
+
+To setup a temporary virtual environment the following commands are
+- `python3 -m venv env`
+- `source env/bin/activate`
+
+This creates a env/ folder so in `.gitignore` be sure to add `env/`
+
+After creating the environment, if you want to add installed libraries to the `requirements.txt` file run the following command
+- `python3 -m pip freeze > requirements.txt`
+
 ### March 31, 2021
 
 To create a Next.JS project write this command in your terminal `npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"` for a basic layout. You need to have `node.js` installed

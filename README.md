@@ -1,6 +1,16 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### April 2, 2021
+
+An easier virtual environment to use is `pipenv`
+
+To create a shell
+- `pipenv shell`
+
+To download dependencies in PipFile (similiar to requirements.txt)
+- `pipenv install`
+
 ### April 1, 2021
 
 To setup a temporary virtual environment the following commands are

@@ -11,6 +11,12 @@ To create a shell
 To download dependencies in PipFile (similiar to requirements.txt)
 - `pipenv install`
 
+Sometimes when running `pipenv shell` it doesn't know where Python3.6 is. To find this, type `python` or `python3` in terminal
+- Type `import sys` then enter
+- Type `print(sys.executable)` to get the path. Copy the path and get out of python interpreter
+
+In regular terminal type `pipenv --python <path_to_python>`
+
 ### April 1, 2021
 
 To setup a temporary virtual environment the following commands are

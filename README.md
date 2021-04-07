@@ -1,6 +1,30 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### April 7, 2021
+
+###### Uploading Flask App to Elastic Beanstalk
+
+After creating a virtual environment, and having my requirements in requirements.txt. My folder structure should look something similiar:
+project/
+  venv
+  app.py
+  requirements.txt
+  
+ If you run `python3 app.py` it should run locally
+ 
+ Before proceding, make sure you have the AWS CLI `pip3 install awscli` then download the elastic beanstalk CLI `pip3 install awsebcli` If you type `aws` in the terminal you can see the AWS CLI was downloaded successfully, along if you type `eb` in the terminal you can see that that was downloaded successfully too.
+ 
+ In the command line, to create an elastic beanstalk application run `eb init -p python-3.6 projectName --region us-east-1`
+ 
+ Now to setup the configuration type `eb init` which will prompt you to add a keypair so that you can connect to your EC2 instance through SSH. If you ever need to change this information in the future run `eb init -i`
+ 
+ Create an environment and deploy the application with `eb create flask-env` command, this could take about 5 minutes to create all the resources.
+ 
+ To open your application run `eb open`
+ 
+ If you ever need to completely delete everything on elastic beanstalk run `eb terminate flask-env`
+
 ### April 2, 2021
 
 An easier virtual environment to use is `pipenv`

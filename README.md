@@ -6,10 +6,10 @@ Just an area where I put things I learned
 ###### Uploading Flask App to Elastic Beanstalk
 
 After creating a virtual environment, and having my requirements in requirements.txt. My folder structure should look something similiar:
-project/
+`project/
   venv
   app.py
-  requirements.txt
+  requirements.txt`
   
  If you run `python3 app.py` it should run locally
  

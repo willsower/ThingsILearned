@@ -24,6 +24,8 @@ After creating a virtual environment, and having my requirements in requirements
  To open your application run `eb open`
  
  If you ever need to completely delete everything on elastic beanstalk run `eb terminate flask-env`
+ 
+ if you ever need to redeploy your code to the same application run `eb deploy` in the repository
 
 ### April 2, 2021
 

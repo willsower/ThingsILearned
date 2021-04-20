@@ -9,6 +9,8 @@ Just an area where I put things I learned
 
 `scp -P 922 ${username}@linux.cs.wwu.edu:~/document.txt ~/Documents/` to copy files from my VM to my personal Documents directory on my local machine.
 
+For my sake, grabbing LaTeX files I use `scp -P 922 rosej25@linux.cs.wwu.edu:/projects/49x/tex2speech/texFiles/computer.tex ~/Documents/` command
+
 ### April 7, 2021
 
 ###### Uploading Flask App to Elastic Beanstalk

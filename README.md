@@ -1,6 +1,14 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### April 20, 2021
+
+##### SSH into WWU Machines + Using SCP to copy files from virtual machine to personal machine
+
+`ssh -p 922 ${username}@linux.cs.wwu.edu` to ssh into school machines
+
+`scp -P 922 ${username}@linux.cs.wwu.edu:~/document.txt ~/Documents/` to copy files from my VM to my personal Documents directory on my local machine.
+
 ### April 7, 2021
 
 ###### Uploading Flask App to Elastic Beanstalk

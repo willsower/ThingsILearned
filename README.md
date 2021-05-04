@@ -11,6 +11,8 @@ Just an area where I put things I learned
 
 For my sake, grabbing LaTeX files I use `scp -P 922 rosej25@linux.cs.wwu.edu:/projects/49x/tex2speech/texFiles/computer.tex ~/Documents/` command
 
+This is for me to get to my tex2speech logs `scp -P 922 rosej25@linux.cs.wwu.edu:~/CSCI/Tex2Speech/latex2speech/tex2speech/log.log ~/Documents/`
+
 ### April 7, 2021
 
 ###### Uploading Flask App to Elastic Beanstalk

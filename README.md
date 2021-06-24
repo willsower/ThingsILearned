@@ -1,6 +1,17 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### June 24, 2021
+
+##### Delete branches
+```GIT
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+```
+
 ### April 20, 2021
 
 ##### SSH into WWU Machines + Using SCP to copy files from virtual machine to personal machine

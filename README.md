@@ -1,6 +1,19 @@
 # ThingsILearned
 Just an area where I put things I learned
 
+### July 21, 2021
+
+##### Create SSH Key for GitHub
+
+1. In Mac install git
+2. Set username `git config --global user.name "willsower"`
+3. Set email `git config --global user.email "jatr812@gmail.com`
+4. Create SSH Key `ssh-keygen -t rsa -C "jatr812@gmail.com"`. Follow necessary steps for generation
+5. Copy the SSH key `pbcopy < ~/.ssh/id_rsa.pub`
+6. Go into GitHub and go to AccountSettings -> SSH Keys -> Add SSH Key
+7. Add label, paste the public key in the big text box
+8. To test, run `ssh -T git@github.com`
+
 ### June 24, 2021
 
 ##### Delete branches

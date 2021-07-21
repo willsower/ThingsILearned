@@ -4,6 +4,26 @@ Just an area where I put things I learned
 
 ### July 21, 2021
 
+##### UserData for Mock EC2 Linux Instance
+
+```Bash
+#!/bin/bash
+
+########################################
+##### USE THIS WITH AMAZON LINUX 2 #####
+########################################
+
+# get admin privileges
+sudo su
+
+# install httpd (Linux 2 version)
+yum update -y
+yum install -y httpd.x86_64
+systemctl start httpd.service
+systemctl enable httpd.service
+echo "Hello World from $(hostname -f)" > /var/www/html/index.html
+```
+
 ##### Create SSH Key for GitHub
 
 1. In Mac install git

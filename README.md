@@ -1,4 +1,5 @@
 # ThingsILearned
+
 Just an area where I put things I learned
 
 ### July 21, 2021

@@ -2,6 +2,12 @@
 
 Just an area where I put things I learned
 
+### August 12, 2021
+
+##### Installing Homebrew on MacOS
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
 ### August 11, 2021
 
 ##### My First Docker File

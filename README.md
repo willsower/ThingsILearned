@@ -2,6 +2,16 @@
 
 Just an area where I put things I learned
 
+### March 17, 2022
+
+##### AWS Lambda Functions Importing Packages
+
+In AWS Lambda, soemtimes I get `"Unable to import module 'lambda_function': No module named 'xpress'"` error message. This is just because the default Lambda doesn't have the dependency required.
+
+I needed pandas and numpy. I used this tutorial to get me through it. https://www.youtube.com/watch?v=1UDEp90S9h8
+
+Now I need to have `xpress` installed. I am looking up "Python xpress wheel files" and will upload it as a layer to my function (just like we did with pandas in youtube video above).
+
 ### August 12, 2021
 
 ##### Installing Homebrew on MacOS
